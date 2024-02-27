@@ -18,11 +18,11 @@ while (true)
     {
         foreach (var item in lib.GetBooks())
         {
-            Console.WriteLine($"Book Title : {item.Name} \nBook author : {item.Author}");
+            Console.WriteLine($"Id {item.Id} \nBook Title : {item.Name} \nBook author : {item.Author}");
             Console.WriteLine("-------------------------");
         }
 
-        Console.ReadKey();
+        Console.ReadLine();
     }
     else if(com == 'c')
     {
@@ -33,7 +33,8 @@ while (true)
         bk.Author = Console.ReadLine();
         lib.AddBook(bk);
         Console.WriteLine("Your book added on library");
-        Console.ReadKey();
+        Console.ReadLine();
+        
     }
     else if (com == 'u')
     {
@@ -46,29 +47,32 @@ while (true)
         bk.Author = Console.ReadLine();
         lib.UpdateBook(bk);
         Console.WriteLine("Book updated");
-        Console.ReadKey();
+        Console.ReadLine();
     }
     else if (com == 'd')
     {
         Console.WriteLine("Enter a book id: ");
         int id = int.Parse(Console.ReadLine());
         lib.DeleteBook(id);
-        Console.ReadKey();
+        Console.ReadLine();
     }
     else if (com == 'f')
     {
         Console.WriteLine("Enter a book Name:");
         var name = Console.ReadLine();
         lib.FindBookByName(name);
+        Console.ReadLine();
     }
     else if (com == 'a')
     {
         Console.WriteLine("Enter a book Author:");
         var author = Console.ReadLine();
         lib.FindBookByAuthor(author);
+        Console.ReadLine();
     }
     else if (com == 'e')
     {
+        Console.ReadLine();
         break;
     }
     

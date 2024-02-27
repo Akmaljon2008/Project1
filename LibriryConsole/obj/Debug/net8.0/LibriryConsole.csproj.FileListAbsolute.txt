@@ -18,3 +18,4 @@ C:\Users\2023\Desktop\.Net\week1\day1\home\LibriryConsole\obj\Debug\net8.0\refin
 C:\Users\2023\Desktop\.Net\week1\day1\home\LibriryConsole\obj\Debug\net8.0\LibriryConsole.pdb
 C:\Users\2023\Desktop\.Net\week1\day1\home\LibriryConsole\obj\Debug\net8.0\LibriryConsole.genruntimeconfig.cache
 C:\Users\2023\Desktop\.Net\week1\day1\home\LibriryConsole\obj\Debug\net8.0\ref\LibriryConsole.dll
+C:\Users\2023\Desktop\.Net\week1\day1\home\LibriryConsole\obj\Debug\net8.0\LibriryConsole.sourcelink.json

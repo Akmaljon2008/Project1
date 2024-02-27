@@ -23,13 +23,13 @@ public class Library
      public void UpdateBook(Book book)
      {
           using var connect = new NpgsqlConnection(_connectionstring);
-          connect.Execute("update books set name = @name,aythor=@author", book);
+          connect.Execute("update books set name = @name,aythor=@author where id = @id", book);
      }
 
      public void DeleteBook(int id)
      {
           using var connect = new NpgsqlConnection(_connectionstring);
-          connect.Execute("deletem from books where id = @id", new { Id = id });
+          connect.Execute("delete from books where id = @id", new { Id = id });
      }
 
      public void FindBookByName(string name)
