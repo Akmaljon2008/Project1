@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mCLs4ILpBaAYwi+oMRvwZbDrCh182911AhFLMbg61XfNE0+JZ5YQ6+M0zA/YGuR75TYGvHZ8xxIEUzXQ2jF+IA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\2023\\Desktop\\.Net\\week1\\day1\\home\\LibriryConsole\\LibriryConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\2023\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
+    "C:\\Users\\2023\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\2023\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\2023\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
